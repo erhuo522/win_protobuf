@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libprotobuf", "libprotobuf.vcxproj", "{D28520FE-60B0-35C6-8C12-3EF3DC99D132}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libprotobuf-lite", "libprotobuf-lite.vcxproj", "{D2BA1F57-6A5B-30B9-96AA-D734C97527AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libprotoc", "libprotoc.vcxproj", "{7C3CA4A7-F809-3959-B8F4-D5BB80A7AF6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D28520FE-60B0-35C6-8C12-3EF3DC99D132} = {D28520FE-60B0-35C6-8C12-3EF3DC99D132}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "protoc", "protoc.vcxproj", "{60112153-959C-399E-A090-7551B8020F7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D28520FE-60B0-35C6-8C12-3EF3DC99D132} = {D28520FE-60B0-35C6-8C12-3EF3DC99D132}
+		{7C3CA4A7-F809-3959-B8F4-D5BB80A7AF6C} = {7C3CA4A7-F809-3959-B8F4-D5BB80A7AF6C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D28520FE-60B0-35C6-8C12-3EF3DC99D132}.Debug|x64.ActiveCfg = Debug|x64
+		{D28520FE-60B0-35C6-8C12-3EF3DC99D132}.Debug|x64.Build.0 = Debug|x64
+		{D28520FE-60B0-35C6-8C12-3EF3DC99D132}.Release|x64.ActiveCfg = Release|x64
+		{D28520FE-60B0-35C6-8C12-3EF3DC99D132}.Release|x64.Build.0 = Release|x64
+		{D2BA1F57-6A5B-30B9-96AA-D734C97527AC}.Debug|x64.ActiveCfg = Debug|x64
+		{D2BA1F57-6A5B-30B9-96AA-D734C97527AC}.Debug|x64.Build.0 = Debug|x64
+		{D2BA1F57-6A5B-30B9-96AA-D734C97527AC}.Release|x64.ActiveCfg = Release|x64
+		{D2BA1F57-6A5B-30B9-96AA-D734C97527AC}.Release|x64.Build.0 = Release|x64
+		{7C3CA4A7-F809-3959-B8F4-D5BB80A7AF6C}.Debug|x64.ActiveCfg = Debug|x64
+		{7C3CA4A7-F809-3959-B8F4-D5BB80A7AF6C}.Debug|x64.Build.0 = Debug|x64
+		{7C3CA4A7-F809-3959-B8F4-D5BB80A7AF6C}.Release|x64.ActiveCfg = Release|x64
+		{7C3CA4A7-F809-3959-B8F4-D5BB80A7AF6C}.Release|x64.Build.0 = Release|x64
+		{60112153-959C-399E-A090-7551B8020F7F}.Debug|x64.ActiveCfg = Debug|x64
+		{60112153-959C-399E-A090-7551B8020F7F}.Debug|x64.Build.0 = Debug|x64
+		{60112153-959C-399E-A090-7551B8020F7F}.Release|x64.ActiveCfg = Release|x64
+		{60112153-959C-399E-A090-7551B8020F7F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF331BF2-0123-3561-BB8C-A6361567F684}
+	EndGlobalSection
+EndGlobal

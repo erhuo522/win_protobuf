@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\google\protobuf\any_lite.cc" />
+    <ClCompile Include="..\src\google\protobuf\arena.cc" />
+    <ClCompile Include="..\src\google\protobuf\extension_set.cc" />
+    <ClCompile Include="..\src\google\protobuf\generated_enum_util.cc" />
+    <ClCompile Include="..\src\google\protobuf\generated_message_table_driven_lite.cc" />
+    <ClCompile Include="..\src\google\protobuf\generated_message_util.cc" />
+    <ClCompile Include="..\src\google\protobuf\implicit_weak_message.cc" />
+    <ClCompile Include="..\src\google\protobuf\io\coded_stream.cc" />
+    <ClCompile Include="..\src\google\protobuf\io\io_win32.cc" />
+    <ClCompile Include="..\src\google\protobuf\io\strtod.cc" />
+    <ClCompile Include="..\src\google\protobuf\io\zero_copy_stream.cc" />
+    <ClCompile Include="..\src\google\protobuf\io\zero_copy_stream_impl.cc" />
+    <ClCompile Include="..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
+    <ClCompile Include="..\src\google\protobuf\message_lite.cc" />
+    <ClCompile Include="..\src\google\protobuf\parse_context.cc" />
+    <ClCompile Include="..\src\google\protobuf\repeated_field.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\bytestream.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\common.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\int128.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\status.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\statusor.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\stringpiece.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\stringprintf.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\structurally_valid.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\strutil.cc" />
+    <ClCompile Include="..\src\google\protobuf\stubs\time.cc" />
+    <ClCompile Include="..\src\google\protobuf\wire_format_lite.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\google\protobuf\arena.h" />
+    <ClInclude Include="..\src\google\protobuf\arenastring.h" />
+    <ClInclude Include="..\src\google\protobuf\extension_set.h" />
+    <ClInclude Include="..\src\google\protobuf\generated_message_util.h" />
+    <ClInclude Include="..\src\google\protobuf\implicit_weak_message.h" />
+    <ClInclude Include="..\src\google\protobuf\parse_context.h" />
+    <ClInclude Include="..\src\google\protobuf\io\coded_stream.h" />
+    <ClInclude Include="..\src\google\protobuf\io\strtod.h" />
+    <ClInclude Include="..\src\google\protobuf\io\zero_copy_stream.h" />
+    <ClInclude Include="..\src\google\protobuf\io\zero_copy_stream_impl.h" />
+    <ClInclude Include="..\src\google\protobuf\io\zero_copy_stream_impl_lite.h" />
+    <ClInclude Include="..\src\google\protobuf\message_lite.h" />
+    <ClInclude Include="..\src\google\protobuf\repeated_field.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\bytestream.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\common.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\int128.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\once.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\status.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\statusor.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\stringpiece.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\stringprintf.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\strutil.h" />
+    <ClInclude Include="..\src\google\protobuf\stubs\time.h" />
+    <ClInclude Include="..\src\google\protobuf\wire_format_lite.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\build\version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3902B9E8-C432-309F-ACD0-B2383BF181EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{293D49C7-02BB-3715-A983-26C343C0079E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
